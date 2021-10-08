@@ -34,8 +34,8 @@ var phone = prompt('Введите номер');
 var lenPhone = phone.length;
 var tt=phone.split('');
 if(lenPhone == 12){
-tt.splice(2,"", "(");
-tt.splice(6,"", ")");
+tt.splice(2,"", " (");
+tt.splice(6,"", ") ");
 tt.splice(10,"", "-");
 tt.splice(13,"", "-");
 }else if(lenPhone == 13){
